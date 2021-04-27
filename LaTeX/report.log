@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.13)  27 APR 2021 09:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.13)  27 APR 2021 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,7 +565,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 101.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
-14.
+13.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -574,96 +574,94 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 
 
 ]
-Underfull \hbox (badness 2197) in paragraph at lines 158--159
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+Underfull \hbox (badness 2197) in paragraph at lines 181--182
 \OT1/ptm/m/n/10 This sec-tion in-cludes pages such as \Youtube Kids",
  []
 
 <prototype0.PNG, id=12, 516.42938pt x 322.95656pt>
 File: prototype0.PNG Graphic file (type png)
 <use prototype0.PNG>
-Package pdftex.def Info: prototype0.PNG  used on input line 162.
+Package pdftex.def Info: prototype0.PNG  used on input line 185.
 (pdftex.def)             Requested size: 227.62363pt x 170.71771pt.
-<prototype.PNG, id=14, 690.32906pt x 437.38406pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+<prototype.PNG, id=19, 690.32906pt x 437.38406pt>
 File: prototype.PNG Graphic file (type png)
 <use prototype.PNG>
-Package pdftex.def Info: prototype.PNG  used on input line 173.
+Package pdftex.def Info: prototype.PNG  used on input line 218.
 (pdftex.def)             Requested size: 227.61969pt x 170.71924pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<UI.png, id=15, 673.51625pt x 419.5675pt>
+<UI.png, id=20, 673.51625pt x 419.5675pt>
 File: UI.png Graphic file (type png)
 <use UI.png>
-Package pdftex.def Info: UI.png  used on input line 180.
+Package pdftex.def Info: UI.png  used on input line 225.
 (pdftex.def)             Requested size: 227.62564pt x 170.71776pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./prototype0.PNG>]
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
- [3 <./prototype.PNG> <./UI.png>] [4
+ [3 <./prototype0.PNG> <./prototype.PNG> <./UI.png>] [4
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 22598 strings out of 478994
- 600919 string characters out of 5858184
- 1015708 words of memory out of 5000000
- 39720 multiletter control sequences out of 15000+600000
+ 22604 strings out of 478994
+ 601086 string characters out of 5858184
+ 1019708 words of memory out of 5000000
+ 39726 multiletter control sequences out of 15000+600000
  422490 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,15n,103p,2538b,2256s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,15n,103p,1385b,2260s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.e
 nc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (4 pages, 473919 bytes).
+Output written on report.pdf (4 pages, 476443 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
