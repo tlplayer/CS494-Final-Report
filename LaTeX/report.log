@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.13)  27 APR 2021 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.13)  27 APR 2021 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,15 +598,23 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Underfull \hbox (badness 2197) in paragraph at lines 181--182
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 182--183
 \OT1/ptm/m/n/10 This sec-tion in-cludes pages such as \Youtube Kids",
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <prototype0.PNG, id=12, 516.42938pt x 322.95656pt>
 File: prototype0.PNG Graphic file (type png)
 <use prototype0.PNG>
-Package pdftex.def Info: prototype0.PNG  used on input line 185.
+Package pdftex.def Info: prototype0.PNG  used on input line 186.
 (pdftex.def)             Requested size: 227.62363pt x 170.71771pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -637,12 +645,12 @@ Missing character: There is no 0 in font nullfont!
 <prototype.PNG, id=19, 690.32906pt x 437.38406pt>
 File: prototype.PNG Graphic file (type png)
 <use prototype.PNG>
-Package pdftex.def Info: prototype.PNG  used on input line 218.
+Package pdftex.def Info: prototype.PNG  used on input line 219.
 (pdftex.def)             Requested size: 227.61969pt x 170.71924pt.
 <UI.png, id=20, 673.51625pt x 419.5675pt>
 File: UI.png Graphic file (type png)
 <use UI.png>
-Package pdftex.def Info: UI.png  used on input line 225.
+Package pdftex.def Info: UI.png  used on input line 226.
 (pdftex.def)             Requested size: 227.62564pt x 170.71776pt.
  [3 <./prototype0.PNG> <./prototype.PNG> <./UI.png>] [4
 
@@ -650,7 +658,7 @@ Package pdftex.def Info: UI.png  used on input line 225.
 Here is how much of TeX's memory you used:
  22604 strings out of 478994
  601086 string characters out of 5858184
- 1019708 words of memory out of 5000000
+ 1018708 words of memory out of 5000000
  39726 multiletter control sequences out of 15000+600000
  422490 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -661,7 +669,7 @@ nc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (4 pages, 476443 bytes).
+Output written on report.pdf (4 pages, 476476 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
