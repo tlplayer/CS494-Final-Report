@@ -138,12 +138,12 @@ For our needfinding we created 5 different personas to help us visualize how our
         ylabel={number},
         nodes near coords,
  %      nodes near coords align=below, % places labels inside bars
-        symbolic x coords={Male,Female, Old, Young, Disability},
+        symbolic x coords={Male,Female, Old, Young, Disabled},
         xtick = data,
         enlarge y limits={value=0.2,upper},
         legend pos=north west
     ]
-		\addplot[fill=blue] coordinates {(Male, 1) (Female,1) (Old,1) (Young,1) (Disability, 1)};
+		\addplot[fill=blue] coordinates {(Male, 3) (Female,2) (Old,1) (Young,1) (Disabled, 1)};
     \end{axis}
 \end{tikzpicture}
 \caption{Personas Demographics}
@@ -229,7 +229,7 @@ A last step in this process of future work would be to launch the agent to produ
 
 \section{Contributions}
 
-Timothy worked on design, critique, review and organisation for the project. He helped present ideas and helped writing the report. 
+Timothy worked on the lofi prototype with Doug. He helped the design of the prototype by suggesting a slide bar insteead of radial buttons. He Critiqued the server client interactions and suggested more logic on the user side and less so on the server side to help alieviate server costs. He reviewed and organised for the project. He helped present ideas and helped writing the report. 
 
 Josh Mandzak contributed to the future work section of the paper, the design of multiple powerpoints, and the creation of a survey used for prototype iteration. He also helped in the early stages to design the agent with creative input.
 
