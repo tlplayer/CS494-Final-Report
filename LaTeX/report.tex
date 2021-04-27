@@ -105,15 +105,18 @@ Youtube Education is an add-on to the existing Youtube architecture which makes 
 	This system could have many uses in online education. The Youtube Education agent could help students stay focused on school while still using a great resource like Youtube. The system would be built on a platform that already has a large database of videos, but some recommendations are a problem. Youtube Education is an attempt to eliminate this weakness with better AI. In order to make the system easier to use, it can be partnered with Universities , so the students don’t have to enter all the information for their classes. The system was slowly improved using a need finding study and prototyping. 
 	This development process was broken down into two different phases. The main purpose of the needfinding study is to look at users for design inspirations. Needfinding also helps with looking for surprises, finding the differences between what people say they do and what they actually do , and use users who are pushing the system to reveal needs before the mainstream. Prototyping is the second phase of the development of Youtube Education. In the prototyping phases the users are shown a lo-fi prototype of the agent, and they are asked what they think of the prototype. Using the feedback, the lo-fi prototype is improved in all needed places, and shown to the users until the desired product is created.  There is no limit to how many times this iteration is done even though Youtube Education used only one iteration.
 
+\begin{figure}
 \begin{tikzpicture}[block/.style={draw,minimum width=2cm,minimum height=1cm}, font=\sffamily]
 	\node[block](C) {Client};
 	\node[block,right=4cm of C](S) {Server};
 	\draw[-latex] (C.15) -- (S.165)
 	node[midway,above]{Request(CSV,Classes...)};
 	\draw[-latex] (S.195) -- (C.-15) node[midway,below]{Response(video list)};
+\end{tikzpicture}
 	\caption{Client Server Architecture}
 	\label{fig:client/server}
-\end{tikzpicture}
+\end{figure}
+
 
 \section{Need Finding}
 For our needfinding we created 5 different personas to help us visualize how our product would affect the general population. We specifically wanted to hone in on the section of the population that is still undergoing education. Our first persona is Tiffany, a first year college student majoring in physics. She is a first generation college student and would like to learn more about her classes to accelerate her learning. She has developed poor study habits from online learning, she also falls asleep in class. We thought that our project would be useful in helping her fix her poor study habits and keep her attention so that she does not doze off in the middle of learning. Our second persona is Mark, a middle schooler with ADHD. He has issues focusing on schoolwork and spends his time binging videos on the internet and gaming with his friends. Our project could help him learn while still being as enjoyable as some of his other hobbies. Especially with the ability to intermingle our recommendations with the default recommendations we believe this project would be perfect for Mark. Our third persona is Jim, and undecided freshman who is unsure which major to pursue. He hasn't chosen a major because he lacks basic knowledge about the contents of each major. Jim wants to see more of what each major contains before making a decision. Our project could be used by Jim to help sooth his concerns about lacking knowledge. He could research easy to stomach information about multiple different majors to feel more educated on his decision. Our fourth persona is Alex, a 22-year-old neuroscience major in his senior year.  He works as a research assistant for his college and loves it, but is bogged down by loads of class work and constant tests. He would prefer to be working on his research then studying for his midterms. Our project could assist him by allowing him to study in a more enjoyable manner and possibly at a quicker pace so that he can return to his research work. Our final persona is different from the rest as she is supposed to be an “anti-persona” that we need to fix our project around. Her name is Helen and she is an elderly woman who is unsure of how to use the internet, but enjoys knitting. We created her to make sure that our project was clear enough that even people unsure about the internet might be able to use our project. Our project should be clear and straightforward enough for Helen to be able to look up educational knitting videos at her leisure. 
@@ -123,9 +126,9 @@ After we had created our personas we took our ideas and questions to real people
 
 From the information gleamed from need finding, we decided that tackling all the goals were too ambitious. So we decided to focus on 3 important base goals from Need Finding. Usability, integration, and user experience through the Lo-Fi Prototype. This is the default Youtube homepage$^{[\ref{fig:prototype0}]}$, which includes a small section labelled “Youtube Apps”. This section includes pages such as “Youtube Kids”, “Youtube Music”, etc. It followed that the recommender should be included there as it is an extension to the default Youtube homepage. Once clicked it would open up a menu with all of it’s options. Our recommendation engine would be visible here among the other apps. Once the application was clicked on it would open up a menu that allows the user to customize their recommendation experience. It will allow them to type in their major and/or classes with each choice being saved and removable. It would also allow the user to upload their syllabus for easy addition. It includes a slider that allows the user to decide how educational or entertaining their content suggestions are. As well as radio buttons that allow the user to set how much of their content should be based on our educational recommendations. Finally it has a save and cancel button that allows the user to save their changes or disregard them.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=8cm, hieght=8cm]{prototype0.PNG}
+\begin{figure}[h]     
+	\centering
+    \includegraphics[width=8cm, height=6cm]{prototype0.PNG}
     \caption{Initial Prototype}
     \label{fig:prototype0}
 \end{figure}
@@ -136,7 +139,7 @@ Moved from YouTube Apps to its own button, indicated by book icon. Changed “ch
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8cm, hieght=8cm]{prototype.PNG}
+    \includegraphics[width=8cm, height=6cm]{prototype.PNG}
     \caption{Final Prototype}
     \label{fig:prototype}
 \end{figure}
@@ -151,15 +154,33 @@ Once the dataset had been created, the engineers could then create an algorithm 
 A last step in this process of future work would be to launch the agent to production and assess the YouTube community’s opinion on it.
 
  
- 
+\begin{figure} 
 \begin{tikzpicture}
     % We will draw the pie chart here
 	\pie{
-		72/Never,
+		73/Never,
 		9/Often,
 		18/Sometimes}
 
 \end{tikzpicture}
+	\caption{Usage of Youtube Apps}
+	\label{fig:AppsPie}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{tikzpicture}
+    % We will draw the pie chart here
+	\pie{
+		54/Yes,
+		9/No,
+		37/Maybe}
+
+\end{tikzpicture}
+	\caption{Interest in Educational Recommender}
+	\label{fig:InterestPie}
+\end{figure}
+
 
 
 \section{Contributions}
